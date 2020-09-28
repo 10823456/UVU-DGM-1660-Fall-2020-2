@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
-//Name: High_Res_Watch.001.ma
-//Last modified: Sun, Sep 27, 2020 10:20:39 PM
+//Name: High_Res_Watch.002 - Final.ma
+//Last modified: Sun, Sep 27, 2020 10:21:03 PM
 //Codeset: 1252
 requires maya "2020";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 17763)\n";
-fileInfo "UUID" "B5C14A2D-424C-AA8F-5796-09A146D33861";
+fileInfo "UUID" "6E6EFFD1-4276-5370-20A3-C792C0731775";
 createNode transform -n "Watch";
 	rename -uid "CF649EE4-4828-5841-FC94-7F9C031672C9";
 	setAttr ".t" -type "double3" 0 0.38808655002334635 -0.22129566850087445 ;
@@ -11990,4 +11990,4 @@ connectAttr "groupId79.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId80.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId90.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId91.msg" ":initialShadingGroup.gn" -na;
-// End of High_Res_Watch.001.ma
+// End of High_Res_Watch.002 - Final.ma
